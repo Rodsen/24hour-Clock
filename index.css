@@ -1,0 +1,41 @@
+#clock {
+    background: url(./images/all-day.jpg) no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+#clock_2 {
+    background: url(./images/24小时制时钟-1.png) no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: 900px;
+    top:-600px;
+}
+.hour {
+    background: url(./images/hour.png);
+    width: 15px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+}
+.minute {
+    background: url(./images/minute.png);
+    width: 15px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+}
+.second {
+    background: url(./images/second.png);
+    width: 30px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+}
