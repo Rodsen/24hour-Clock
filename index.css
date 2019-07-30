@@ -1,3 +1,16 @@
+.twenty-four-clock {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dome-1 {
+    background-color: pink;
+}
+.dome-2 {
+    background-color: pink;
+}
+.dome-3 {
+    background-color: pink;
+}
 #clock {
     background: url(./images/all-day.jpg) no-repeat;
     background-size: 100% 100%;
@@ -12,8 +25,13 @@
     width: 600px;
     height: 600px;
     position: relative;
-    left: 900px;
-    top:-600px;
+}
+#clock_3 {
+    background: url(./images/24小时制时钟-2.png) no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 600px;
+    position: relative;
 }
 .hour {
     background: url(./images/hour.png);
